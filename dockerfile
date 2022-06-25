@@ -3,8 +3,8 @@ FROM ubuntu:18.04
 
 # ENV
 ENV DEBIAN_FRONTEND noninteractive
-ENV USER Dopaemon
-ENV HOSTNAME KernelPanic-OpenSource
+ENV USER AikoCute-Offical
+ENV HOSTNAME AikoCute-Offical
 ENV USE_CCACHE 1
 ENV LC_ALL C
 ENV CCACHE_COMPRESS 1
