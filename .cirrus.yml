@@ -4,7 +4,7 @@ docker_builder:
      EMAIL: "ENCRYPTED[!c35915516c106c1deff4cd4990ba3996ea20535e7b782cb88c051fa1d9706db63dd027a7e8570e5ad6d1701961eb2595!]"
      PASSWORD: "ENCRYPTED[!00caa4b6a39951c2c4f7de789734a0ab010eb4fe08898bd1bbffb74a723e126030f52342fd358279c8c8cd87066990e5!]"
      DOCKERNAME: "aiko"
-     DOCKERTAG: "latest"
+     DOCKERTAG: "1.0.1"
      GITHUB: "https://github.com/AikoCute-Offical/DockerFile-Cirrus.git"
    only_if: $CIRRUS_REPO_OWNER == 'AikoCute-Offical' && $CIRRUS_BRANCH == 'aiko'
    skip: $CIRRUS_BRANCH != 'aiko'
